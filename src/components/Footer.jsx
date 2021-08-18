@@ -7,9 +7,9 @@ export const Footer = () => {
 				<i class="fas fa-arrow-up text-3xl text-white "></i>
 			</a>
 			<div className='flex justify-center'>
-				<a href=''><i class="pr-10 fab fa-instagram-square pb-4 text-5xl cursor-pointer hover:text-blue-400 transition"></i></a>
-				<a href=''><i class="pr-10 fab fa-facebook-square pb-4 text-5xl cursor-pointer hover:text-blue-400 transition"></i></a>
-				<a href=''><i class="fab fa-twitter-square pb-4 text-5xl cursor-pointer hover:text-blue-400 transition"></i></a>
+				<a href=''><i class="hover-press-animation pr-10 fab fa-instagram-square pb-4 text-5xl cursor-pointer hover:text-blue-400 transition"></i></a>
+				<a href=''><i class="hover-press-animation  pr-10 fab fa-facebook-square pb-4 text-5xl cursor-pointer hover:text-blue-400 transition"></i></a>
+				<a href=''><i class="hover-press-animation fab fa-twitter-square pb-4 text-5xl cursor-pointer hover:text-blue-400 transition"></i></a>
 			</div>
 			
 

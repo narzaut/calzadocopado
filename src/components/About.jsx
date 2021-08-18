@@ -9,7 +9,7 @@ export const About = () => {
     );
  }
 	return(
-		<div id="about" class="flex bg-gray text-white flex-row justify-center ">
+		<div id="nosotros" class="flex bg-gray text-white flex-row justify-center ">
       <div className='container flex flex-col  items-center md:text-left md:items-start md:flex-row  py-20 '>
 				<div className='w-full lg:w-1/3 flex items-center justify-center'>
 					<AddressMap />

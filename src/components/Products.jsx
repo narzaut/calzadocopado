@@ -1,7 +1,7 @@
 import { Product } from './Product'
 export const Products = () => {
 	return(
-		<div id='products' className='w-full h-full flex flex-col'>
+		<div id='productos' className='w-full h-full flex flex-col'>
 			<div className='py-10 w-full text-gray-700 uppercase flex items-center justify-center'>
 				<h1 className='border-b-4 border-blue-400 max-w-max text-xl'>Algunos de nuestros productos</h1>
 			</div>

@@ -5,21 +5,21 @@ import { Products } from './Products'
 import { Footer } from './Footer'
 import { Combos } from './Combos'
 
+			
 const TopBar = () => {
 	return (
-		<div  className='bg-transparent w-full h-48 lg:h-20 flex flex-col md:flex-row lg:flex-row '>
-				<a href='#'className='p-4 flex items-center justify-center lg:justify-start lg:px-10 h-full w-full lg:w-2/4'>
+		<div style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2))`}} className='backdrop-filter backdrop-blur-sm bg-transparent w-full items-center flex flex-col md:flex-row lg:flex-row shadow-xl'>
+				<a href='/#'className='p-4 flex items-center justify-center lg:justify-start px-0 lg:px-20 h-full w-full lg:w-2/4'>
 					<div className='w-24 h-24' style={{backgroundImage: `url(${process.env.PUBLIC_URL + `/images/sneakers.svg`})`,backgroundPosition:'center',backgroundRepeat:'no-repeat', backgroundSize: 'cover'}} />
-					<h1 className='lg:pl-4 hidden lg:flex lg:visible uppercase text-xl'>Los Calzados Copados</h1>
 				</a>
-				<div className='flex w-full justify-center lg:justify-end items-center h-full py-4 text-xl text-lg uppercase'>
-					<a href='#products' className='smoothscroll products pl-4 hover:text-blue-400 transition'>
+				<div className='flex w-full justify-center lg:justify-end items-center h-full py-4 text-xl px-0 lg:px-20 text-lg uppercase'>
+					<a href='#productos' className='hover-press-animation smoothscroll products pl-4 hover:text-blue-400 transition'>
 						<h1>Productos</h1>
 					</a>
-					<a href='#combos' className='combos pl-4 lg:pl-10 hover:text-blue-400 transition'>
+					<a href='#combos' className='hover-press-animation pl-4 lg:pl-10 hover:text-blue-400 transition'>
 						<h1>Combos</h1>
 					</a>
-					<a href='#about' className='about px-4 lg:px-10 hover:text-blue-400 transition'>
+					<a href='#nosotros' className=' hover-press-animation px-4 lg:px-10 hover:text-blue-400 transition'>
 						<h1>Quienes somos</h1>
 					</a>
 				</div>
@@ -28,8 +28,10 @@ const TopBar = () => {
 }
 
 const Header = () => {
+
+	
 	return(
-		<div className='h-screen w-full ' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(${process.env.PUBLIC_URL + `/images/calzado.jpg`})`,backgroundPosition:'center',backgroundRepeat:'no-repeat', backgroundSize: 'cover'}}>
+		<div className='h-screen w-full ' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)) ,url(${process.env.PUBLIC_URL + `/images/calzado3.jpg`})`,backgroundPosition:'center',backgroundRepeat:'no-repeat', backgroundSize: 'cover'}}>
 			<TopBar />
 			<div className=' flex items-center justify-center h-2/3'>
 				<div className='px-10 lg:px-0 w-full lg:w-2/3 h-96 flex-col items-center justify-center '>
