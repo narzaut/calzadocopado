@@ -2,14 +2,14 @@ import React from 'react';
 import { About } from './About'
 
 import { Products } from './Products'
-
+import { Footer } from './Footer'
 const TopBar = () => {
 	return (
-		<div className='bg-transparent w-full h-48 lg:h-20 flex flex-col md:flex-row lg:flex-row '>
-				<div className='p-4 flex items-center justify-center lg:justify-start lg:px-10 h-full w-full lg:w-2/4'>
+		<div  className='bg-transparent w-full h-48 lg:h-20 flex flex-col md:flex-row lg:flex-row '>
+				<a href='#'className='p-4 flex items-center justify-center lg:justify-start lg:px-10 h-full w-full lg:w-2/4'>
 					<div className='w-24 h-24' style={{backgroundImage: `url(${process.env.PUBLIC_URL + `/images/sneakers.svg`})`,backgroundPosition:'center',backgroundRepeat:'no-repeat', backgroundSize: 'cover'}} />
 					<h1 className='lg:pl-4 hidden lg:flex lg:visible uppercase text-xl'>Los Calzados Copados</h1>
-				</div>
+				</a>
 				<div className='flex w-full justify-center lg:justify-end items-center h-full py-4 text-xl text-lg uppercase'>
 					<a href='#products' className='smoothscroll products pl-4 hover:text-blue-400 transition'>
 						<h1>Productos</h1>
@@ -17,7 +17,7 @@ const TopBar = () => {
 					<a href='' className='combos pl-4 lg:pl-10 hover:text-blue-400 transition'>
 						<h1>Combos</h1>
 					</a>
-					<a href='' className='about px-4 lg:px-10 hover:text-blue-400 transition'>
+					<a href='#about' className='about px-4 lg:px-10 hover:text-blue-400 transition'>
 						<h1>Quienes somos</h1>
 					</a>
 				</div>
@@ -52,7 +52,7 @@ export const Home = () => {
 			
 			<Products />
 			<About />
-
+			<Footer />
 		</div>
   );
 }
