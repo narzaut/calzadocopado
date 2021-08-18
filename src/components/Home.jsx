@@ -31,7 +31,7 @@ const Header = () => {
 
 	
 	return(
-		<div className='h-screen w-full ' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)) ,url(${process.env.PUBLIC_URL + `/images/calzado3.jpg`})`,backgroundPosition:'center',backgroundRepeat:'no-repeat', backgroundSize: 'cover'}}>
+		<div className='h-screen w-full ' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)) ,url(${process.env.PUBLIC_URL + `/images/background.webp`})`,backgroundPosition:'center',backgroundRepeat:'no-repeat', backgroundSize: 'cover'}}>
 			<TopBar />
 			<div className=' flex items-center justify-center h-2/3'>
 				<div className='px-10 lg:px-0 w-full lg:w-2/3 h-96 flex-col items-center justify-center '>
