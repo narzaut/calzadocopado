@@ -22,9 +22,9 @@ export const Combos = () => {
 					
 					:
 						<Carousel>
-    					<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.gif'} />
-    					<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo.gif'} />
-    					<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.gif'} />
+    					<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.webm'} />
+    					<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo.webm'} />
+    					<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.webm'} />
   					</Carousel>
 					}
 				</div>
