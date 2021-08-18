@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/calzadocopado/static/css/main.11a67472.chunk.css",
-    "main.js": "/calzadocopado/static/js/main.5ef1d4bc.chunk.js",
-    "main.js.map": "/calzadocopado/static/js/main.5ef1d4bc.chunk.js.map",
+    "main.js": "/calzadocopado/static/js/main.5556286e.chunk.js",
+    "main.js.map": "/calzadocopado/static/js/main.5556286e.chunk.js.map",
     "runtime-main.js": "/calzadocopado/static/js/runtime-main.1ccad7fb.js",
     "runtime-main.js.map": "/calzadocopado/static/js/runtime-main.1ccad7fb.js.map",
     "static/css/2.d851105f.chunk.css": "/calzadocopado/static/css/2.d851105f.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.d851105f.chunk.css",
     "static/js/2.5409d7a1.chunk.js",
     "static/css/main.11a67472.chunk.css",
-    "static/js/main.5ef1d4bc.chunk.js"
+    "static/js/main.5556286e.chunk.js"
   ]
 }
