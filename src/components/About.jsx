@@ -24,7 +24,7 @@ export const About = () => {
 						</p>
 					</div>
 
-					<div className='flex flex-col items-center   '> 
+					<div className='flex flex-col items-center  lg:items-start '> 
 						<h1 className='border-b-4 border-blue-400 max-w-max font-bold text-2xl  pt-8'>Detalles de contacto</h1>
 						<p className='flex flex-col pt-4 text-base text-gray-300 leading-8'>				
 							<span>El Calzado Copado S.R.L</span>

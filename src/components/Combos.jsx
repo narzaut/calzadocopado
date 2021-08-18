@@ -12,19 +12,17 @@ export const Combos = () => {
 						<p className='border-b-4 text-lg lg:text-2xl border-blue-400 max-w-max text-gray-700 uppercase'>COMBOS</p>
 					</div>
 					{width > 600 ? 
-					
-							<Carousel plugins={['arrows']}>
-    						
-								<video autoplay loop muted inline><source alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.webm'} type="video/webm" /></video>
-    						<video autoplay loop muted inline><source alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo.webm'} type="video/webm" /></video>
-								<video autoplay loop muted inline><source alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.webm'} type="video/webm" /></video>
-  						</Carousel>
+						<Carousel plugins={['arrows']}>
+							<video autoplay loop muted inline><source alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.webm'} type="video/webm" /></video>
+    					<video autoplay loop muted inline><source alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo.webm'} type="video/webm" /></video>
+							<video autoplay loop muted inline><source alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.webm'} type="video/webm" /></video>
+  					</Carousel>
 					
 					:
 						<Carousel>
-    					<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.webm'} />
-    					<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo.webm'} />
-    					<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.webm'} />
+    					<video autoplay loop muted inline><source alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.webm'} type="video/webm" /></video>
+    					<video autoplay loop muted inline><source alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo.webm'} type="video/webm" /></video>
+							<video autoplay loop muted inline><source alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.webm'} type="video/webm" /></video>
   					</Carousel>
 					}
 				</div>

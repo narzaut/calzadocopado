@@ -9,7 +9,7 @@ import { Combos } from './Combos'
 const TopBar = () => {
 	return (
 		<div style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2))`}} className='backdrop-filter backdrop-blur-sm bg-transparent w-full items-center flex flex-col md:flex-row lg:flex-row shadow-xl'>
-				<a href='/#'className='p-4 flex items-center justify-center lg:justify-start px-0 lg:px-20 h-full w-full lg:w-2/4'>
+				<a href='#'className='p-4 flex items-center justify-center lg:justify-start px-0 lg:px-20 h-full w-full lg:w-2/4'>
 					<div className='w-24 h-24' style={{backgroundImage: `url(${process.env.PUBLIC_URL + `/images/sneakers.svg`})`,backgroundPosition:'center',backgroundRepeat:'no-repeat', backgroundSize: 'cover'}} />
 				</a>
 				<div className='flex w-full justify-center lg:justify-end items-center h-full py-4 text-xl px-0 lg:px-20 text-lg uppercase'>
@@ -40,7 +40,7 @@ const Header = () => {
 						<p className='text-base lg:text-2xl py-4'>El lugar mas copado para encontrar los calzados bien copados.</p>
 					</div>
 					<div className='text-center smoothscroll'>
-						<a className='smoothscroll' href='#products'> <i class="fas fa-arrow-circle-down text-5xl animate-bounce cursor-pointer hover:text-blue-400 transition-colors" ></i></a> 
+						<a className='smoothscroll' href='#productos'> <i class="fas fa-arrow-circle-down text-5xl animate-bounce cursor-pointer hover:text-blue-400 transition-colors" ></i></a> 
 					</div>
 				</div>
 			</div>
