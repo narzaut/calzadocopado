@@ -3,7 +3,7 @@ export const Products = () => {
 	return(
 		<div id='productos' className='w-full h-full flex flex-col'>
 			<div className='py-10 w-full text-gray-700 uppercase flex items-center justify-center'>
-				<h1 className='border-b-4 border-blue-400 max-w-max text-xl'>Algunos de nuestros productos</h1>
+				<h1 className='border-b-4 border-blue-400 max-w-max text-lg lg:text-xl'>Algunos de nuestros productos</h1>
 			</div>
 			<div className='flex flex-col lg:flex-row'>
 				<Product url={process.env.PUBLIC_URL + '/images/producto1.webp'} name='Zapacopada' price={4000}/>

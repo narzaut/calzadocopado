@@ -17,7 +17,7 @@ export const About = () => {
 				<div className='w-2/3 flex flex-col pt-12 md:pt-0 justify-center items-center lg:items-start text-center lg:text-left'>
 					<div className='flex flex-col items-center lg:items-start'>
 						<h1 className='border-b-4 border-blue-400 max-w-max font-bold text-2xl  '>
-							Sobre nosotros
+							¿ Quienes somos ?
 						</h1>
 						<p className='text-base pt-4 text-gray-300 leading-8'>
 							Somos una empresa fundada por personas a quienes les gusta andar con buenas zapas por la vida. Como se debe. Este emprendimiento comenzo en askldaklsakl askldjasl djakl sjdl aksdlja skld asjklfj asfjd ajklsdjkla sjkld jlasdlk asfnlask fasdkl asldjl asjkdl jasld
