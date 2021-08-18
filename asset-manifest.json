@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/calzadocopado/static/css/main.82155d00.chunk.css",
-    "main.js": "/calzadocopado/static/js/main.652d22b8.chunk.js",
-    "main.js.map": "/calzadocopado/static/js/main.652d22b8.chunk.js.map",
+    "main.css": "/calzadocopado/static/css/main.e3da7438.chunk.css",
+    "main.js": "/calzadocopado/static/js/main.b7a11e02.chunk.js",
+    "main.js.map": "/calzadocopado/static/js/main.b7a11e02.chunk.js.map",
     "runtime-main.js": "/calzadocopado/static/js/runtime-main.1ccad7fb.js",
     "runtime-main.js.map": "/calzadocopado/static/js/runtime-main.1ccad7fb.js.map",
     "static/css/2.d851105f.chunk.css": "/calzadocopado/static/css/2.d851105f.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.5409d7a1.chunk.js.map": "/calzadocopado/static/js/2.5409d7a1.chunk.js.map",
     "index.html": "/calzadocopado/index.html",
     "static/css/2.d851105f.chunk.css.map": "/calzadocopado/static/css/2.d851105f.chunk.css.map",
-    "static/css/main.82155d00.chunk.css.map": "/calzadocopado/static/css/main.82155d00.chunk.css.map",
+    "static/css/main.e3da7438.chunk.css.map": "/calzadocopado/static/css/main.e3da7438.chunk.css.map",
     "static/js/2.5409d7a1.chunk.js.LICENSE.txt": "/calzadocopado/static/js/2.5409d7a1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1ccad7fb.js",
     "static/css/2.d851105f.chunk.css",
     "static/js/2.5409d7a1.chunk.js",
-    "static/css/main.82155d00.chunk.css",
-    "static/js/main.652d22b8.chunk.js"
+    "static/css/main.e3da7438.chunk.css",
+    "static/js/main.b7a11e02.chunk.js"
   ]
 }
