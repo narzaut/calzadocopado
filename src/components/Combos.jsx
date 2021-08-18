@@ -14,16 +14,16 @@ export const Combos = () => {
 					{width > 600 ? 
 					
 							<Carousel plugins={['arrows']}>
-    						<img src={'https://topperarg.vteximg.com.br/arquivos/ids/254621/inviernosale-slider-13-08-21-dsk.gif?v=637644937729000000'} />
-    						<img src={'https://topperarg.vteximg.com.br/arquivos/ids/248337/especialnaranja-260521-slider-desk-v2.gif?v=637590281630800000'} />
-    						<img src={'https://topperarg.vteximg.com.br/arquivos/ids/254621/inviernosale-slider-13-08-21-dsk.gif?v=637644937729000000'} />
+    						<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.gif'} />
+    						<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo.gif'} />
+    						<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.gif'} />
   						</Carousel>
 					
 					:
 						<Carousel>
-    					<img src={'https://topperarg.vteximg.com.br/arquivos/ids/254621/inviernosale-slider-13-08-21-dsk.gif?v=637644937729000000'} />
-    					<img src={'https://topperarg.vteximg.com.br/arquivos/ids/248337/especialnaranja-260521-slider-desk-v2.gif?v=637590281630800000'} />
-    					<img src={'https://topperarg.vteximg.com.br/arquivos/ids/254621/inviernosale-slider-13-08-21-dsk.gif?v=637644937729000000'} />
+    					<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.gif'} />
+    					<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo.gif'} />
+    					<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.gif'} />
   					</Carousel>
 					}
 				</div>
