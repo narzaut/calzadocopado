@@ -14,9 +14,10 @@ export const Combos = () => {
 					{width > 600 ? 
 					
 							<Carousel plugins={['arrows']}>
-    						<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.gif'} />
-    						<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo.gif'} />
-    						<img alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.gif'} />
+    						
+								<video autoplay loop muted inline><source alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.webm'} type="video/webm" /></video>
+    						<video autoplay loop muted inline><source alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo.webm'} type="video/webm" /></video>
+								<video autoplay loop muted inline><source alt='Alta zapa pa' src={process.env.PUBLIC_URL + '/images/combo1.webm'} type="video/webm" /></video>
   						</Carousel>
 					
 					:
